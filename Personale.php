@@ -6,7 +6,7 @@
     protected $matricola;
     protected $eta;
 
-    public function __construct($_matricola, $_nome, $_cognome){
+    function __construct($_matricola, $_nome, $_cognome){
       $this->matricola = $_matricola;
       $this->nome = $_nome;
       $this->cognome = $_cognome;
