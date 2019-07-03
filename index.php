@@ -1,9 +1,9 @@
 <?php
-  require 'Dirigente.php';
-  require 'Quadro.php';
-  require 'Impiegato.php';
-  require 'Operaio.php';
-  require 'Esterno.php';
+  require_once 'Dirigente.php';
+  require_once 'Quadro.php';
+  require_once 'Impiegato.php';
+  require_once 'Operaio.php';
+  require_once 'Esterno.php';
 
 
   $dipendente1 = new Dipendente('0011', 'Mario', 'Rossi', 'M', 'Impiegato');
